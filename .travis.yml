@@ -19,6 +19,5 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. Nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: 
     secure: $API_HEROKU
   app: eduforlinux
